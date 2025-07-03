@@ -1,4 +1,4 @@
-resource "aws_eks_node_group" "main_even" {
+resource "aws_eks_node_group" "main_odd" {
   for_each = var.node_groups
 
   cluster_name    = aws_eks_cluster.main.name

@@ -16,7 +16,7 @@ backend "s3" {
 } 
 
 module "eks" {
-  source = "https://github.com/prabhuhalakeri/modules.git=Dev"
+  source = "https://gitlab.com/devops7020126/modules/eks.git"
 
   cluster_name    = var.cluster_name
   cluster_version = var.cluster_version
